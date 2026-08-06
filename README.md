@@ -28,6 +28,21 @@ _Task 3: Compute analytical results_
 - Integration results computing total energy delivered to the battery during charging
 - Estimate of resistive energy loss (and, by extension, power loss)
 
-A completed project entails thorough and accurate execution of all tasks detailed above. Comprehensive execution instructions are provided below.
+A completed project entails thorough and accurate execution of all tasks detailed above. Additionally, an optional section analyzing the CC-CV cycles of the lithium-ion battery is included. 
 
 ## Execution Instructions
+This project may be executed through either the MATLAB application or MATLAB online. Comprehensive execution instructions are provided below.
+
+Prior to opening the live script file attached in this repository, appropriate helper functions and toolboxes must be downloaded. Note that toolbox downloads are only required if opening the live script through the MATLAB application. Helper functions must be downloaded regardless of which software is utilized. 
+
+  _Required Helper Functions_
+  - hPlotCurvesforCycles.m
+  - hPlotRawMeasurementsWithSegments.m
+
+Helper functions are accessible through the dedicated "Helper Functions" folder in this repository. They must be on the appropriate MATLAB path before executing any code. 
+
+  _Required Toolboxes_
+  - Curve Fitting Toolbox
+  - Predictive Maintenance Toolbox
+
+These toolboxes are required for features such as fitting curves, differential curves, and battery test parsers. Download sites for toolboxes are linked through the dedicated "Toolboxes" folder in this repository.
