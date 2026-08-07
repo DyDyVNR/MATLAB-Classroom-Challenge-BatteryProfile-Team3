@@ -48,10 +48,9 @@ Helper functions are accessible through the dedicated "Helper Functions" folder 
 These toolboxes are required for features such as fitting curves, differential curves, and battery test parsers. Download sites for toolboxes are linked through the dedicated "Toolboxes" folder in this repository.
 
 ## Reproducing Results
-1. Open the live script as well as the helper functions
-2. Click run
-3. The code will prompt the user to choose a cycle between 1-876, Cycle 1 was the choice chosen by group members.
-4. 
+1. Open the live script as well as the helper functions and click run
+2. . The code will prompt the user to choose a cycle between 1-876, Cycle 1 was the choice chosen by group members.
+3.  
 
 ## File/Folder Overview
 - _<ins>Helper Functions</ins>_ - contains plotting functions used by the main live script. The first helper function plots the voltage and current for the battery's (chosen) charging cycle, and colors each of the data points according to the charging phase (CC, CV, Rest, Undefined). The second helper function plots how a battery analysis curve is able to change across multiple cycles, which creates a 3D graph, plotting the curve on the z-axis, the voltage or time graph on the x-axis, and the cycle number on the y-axis.
