@@ -31,44 +31,84 @@ _Task 3: Compute analytical results_
 A completed project entails thorough and accurate execution of all tasks detailed above. Additionally, an optional section analyzing the CC-CV cycles of the lithium-ion battery is included. 
 
 ## Execution Instructions
-This project may be executed through either the MATLAB application or MATLAB online. Comprehensive execution instructions are provided below.
 
-Prior to opening the live script file attached in this repository, appropriate helper functions and toolboxes must be downloaded. Note that toolbox downloads are only required if opening the live script through the MATLAB application. 
+This project may be executed through either the MATLAB application or MATLAB Online. Comprehensive execution instructions are provided below.
 
-  _Required Helper Functions_
-  - hPlotCurvesforCycles.m
-  - hPlotRawMeasurementsWithSegments.m
+If using the MATLAB application to open the live script file attached in this repository, appropriate helper functions, toolboxes, and Simulink dependencies must be installed. Note that installations are only required if opening the live script through the MATLAB application. MATLAB Online provides automatic access to all required products without installation requirements.
 
-Helper functions are accessible through the dedicated "Helper Functions" folder in this repository. They must be on the appropriate MATLAB path before executing any code. 
+Helper functions are accessible through the dedicated "Helper Functions" folder in this repository. They must be downloaded and added to the appropriate MATLAB search path before executing any code.
 
-  _Required Toolboxes_
-  - Curve Fitting Toolbox
-  - Predictive Maintenance Toolbox
+***Required Helper Functions***
 
-These toolboxes are required for features such as fitting curves, differential curves, and battery test parsers. Download sites for toolboxes for the MATLAB application are linked through the dedicated "Toolboxes" folder in this repository.
+- hPlotCurvesforCycles.m
+- hPlotRawMeasurementsWithSegments.m
+
+Download sites for toolboxes for the MATLAB application are linked below. Toolboxes are required for features such as fitting curves, differential curves, and battery test parsers. The following toolboxes must be downloaded:
+
+***Required Toolboxes***
+
+- Curve Fitting Toolbox
+
+https://www.mathworks.com/products/curvefitting.html](https://www.mathworks.com/products/curvefitting.html
+
+- Predictive Maintenance Toolbox
+
+https://www.mathworks.com/products/predictive-maintenance.html](https://www.mathworks.com/products/predictive-maintenance.html
+
+If you wish to run the Simulink models through the MATLAB application, Simulink and Simscape installations are required as linked below.
+These installations are not required to run the live script or run Simulink models using MATLAB Online, but they must be downloaded in order to run Simulink models through the MATLAB application.
+
+***Simulink Download***
+
+https://www.mathworks.com/products/simulink.html](https://www.mathworks.com/products/simulink.html
+
+***Simscape Download***
+
+https://www.mathworks.com/products/simscape.html](https://www.mathworks.com/products/simscape.html
+
+To access files required for Simulink modeling, navigate to the "Simulink" folder. This will contain a sub-folder entitled "Simulink Dependencies." All files in this "Simulink Dependencies" folder must be downloaded and added to the MATLAB search path prior to running code. Required dependencies include the following:
+
+***Required Simulink Dependencies***
+
+- All files in the "+THERMALBattery" sub-folder
+- All files in the "+THERMALBatteryLumpingAdapters" sub-folder
+- THERMALBattery.mat
+- THERMALBattery\_lib.slx
+
+All of the above helper functions, toolboxes, and dependencies MUST be installed if running the live script through the MATLAB application. Installations are not required if using MATLAB Online.
 
 **MATLAB Application**
 
-If running code through the MATLAB application, follow the steps outlined below:
+If running code through the MATLAB application, follow the steps outlined below.
 
-1) Ensure all necessary helper functions and toolboxes are downloaded
-2) Open the "BatteryChargingProfile_Team3.mlx live script in the repository
-3) Open helper functions and add them to the MATLAB search path by clicking "Add C:/... to search path"
-4) Click the green "Run" icon in the toolbar
-5) Once prompted to choose a cycle number, enter a number within the designated range and click "Enter"
-6) The remaining code will proceed to compile and no further user input is needed
+1. Ensure up-to-date versions of MATLAB, Simulink, and Simscape are installed
+2. Ensure all necessary helper functions, toolboxes, and Simulink dependencies are installed
+3. Open the "BatteryChargingProfile\_Team3.mlx" live script in the repository
+4. Add "Helper Functions" and "Simulink Dependencies" folders to the MATLAB search path by clicking on them and selecting "Add ... to search path"
+5. Click the green "Run" icon in the toolbar
+6. Once prompted to choose a cycle number, enter a number within the designated range and click "Enter"
+7. The remaining code will proceed to execute and no further user input is needed
 
 **MATLAB Online**
 
-If running code through MATLAB online, follow the steps outlined below:
+If running code through MATLAB Online, follow the steps outlined below:
 
-1) Click on the following link to access the GitHub repository through MATLAB online:
-          https://matlab.mathworks.com/open/github/v1?repo=DyDyVNR/MATLAB-Classroom-Challenge-BatteryProfile-Team3
-2) Open helper functions and add them to the MATLAB search path by clicking "Add C:/... to search path"
-3) Click the green "Run" icon in the toolbar
-5) Once prompted to choose a cycle number, enter a number within the designated range and click "Enter"
-6) The remaining code will proceed to compile and no further user input is needed
+1. Click on the following link to access the GitHub repository through MATLAB online:
 
+https://matlab.mathworks.com/open/github/v1?repo=DyDyVNR/MATLAB-Classroom-Challenge-BatteryProfile-Team3
+
+2. Add "Helper Functions" and "Simulink Dependencies" folders to the MATLAB search path by clicking on them and selecting "Add ... to search path"
+3. Click the green "Run" icon in the toolbar
+4. Once prompted to choose a cycle number, enter a number within the designated range and click "Enter"
+5. The remaining code will proceed to execute and no further user input is needed
+
+**Simulink**
+
+All graphs produced by Simulink have been included in the live script and may be viewed using the instructions above. However, Simulink graphs and models may be viewed in further detail through the process detailed below. This process is nearly identical for the MATLAB application and MATLAB Online.
+
+1. Open the "CCCV.slx" and "MSCCCV.slx" files in the "Simulink" folder and add them to the MATLAB search path to access Simulink models.
+2. Click the green "Run" icon in the toolbar
+3. Once the simulation has run successfully, double-click the scope block (as highlighted below) to view graphs.
 
 ## File/Folder Overview
 - <ins>Helper Functions</ins> - Contains plotting functions used by the main live script. These must be downloaded and added to MATLAB's search path prior to running code as detailed by the execution instructions above.
