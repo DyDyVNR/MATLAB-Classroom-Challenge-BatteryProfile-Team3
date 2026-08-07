@@ -113,9 +113,16 @@ All graphs produced by Simulink have been included in the live script and may be
 3. Once the simulation has run successfully, double-click the scope block (as highlighted below) to view graphs.
 
 ## File/Folder Overview
-- <ins>Helper Functions</ins> - Contains plotting functions used by the main live script. These must be downloaded and added to MATLAB's search path prior to running code as detailed by the execution instructions above.
-- <ins>Project Template and Instructions</ins> - Contains project templates and instructions as a reference for team members.
-- <ins>resources/project</ins> - Contains initial commits of MATLAB files and is not necessary to run any code. May effectively be ignored.
-- <ins>BatteryChargingProfile_Team3.mlx</ins> - The main Live Script that runs the battery charging profile analysis and generates the project's results.
-- <ins>+THERMALBattery and +THERMALBatteryLumpingAdapters</ins> - Contain helper functions necessary for Simulink modeling.
-- <ins>Teamwork_Agreement_BatteryProfileTeam3.pdf</ins> - Contains teamwork agreement as a .pdf file.
+_Helper Functions_ - Contains plotting functions used by the main live script. 
+
+_Project Template and Instructions_ - Contains project templates and instructions as a reference for team members.
+
+_Resources (Ignore)_ - Contains initial commits of MATLAB files and is not necessary to run any code. May effectively be ignored.
+
+_Simulink_ - Contains all Simulink files and dependencies.
+
+_BatteryChargingProfile_Team3.mlx_ - The main Live Script that runs the battery charging profile analysis and generates the project's results.
+
+_README.md_ - Main README file detailing project objectives, requirements, and execution instructions.
+
+_Teamwork_Agreement_BatteryProfileTeam3.pdf_ - Contains teamwork agreement as a .pdf file.
