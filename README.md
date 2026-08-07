@@ -46,3 +46,9 @@ Helper functions are accessible through the dedicated "Helper Functions" folder 
   - Predictive Maintenance Toolbox
 
 These toolboxes are required for features such as fitting curves, differential curves, and battery test parsers. Download sites for toolboxes are linked through the dedicated "Toolboxes" folder in this repository.
+
+## File/Folder Overview
+- _<ins>Helper Functions</ins>_ - contains plotting functions used by the main live script. The first helper functions plots the voltage and current for the battery's (chosen) charging cycle, and colors each of the data points according to the charging phase (CC, CV, Rest, Undefined). The second helper function plots how a battery analysis curve is able to change across multiple cycles, which creates a 3d graph, plotting the curve on the z-axis, the voltage or time graph on the x-axis, and the cycle number on the y-axis.
+- _<ins>Project Template and Instructions</ins>_ - As described by the title, this folder contains the given project template and instructions via README as a reference for the project members while working on the code.
+- _<ins>resources/project</ins>_ -
+- _<ins>BatteryChargingProfile_Team3.mlx</ins>_ - The main Live Script that runs the battery charging profile analysis and generates the project's results.
