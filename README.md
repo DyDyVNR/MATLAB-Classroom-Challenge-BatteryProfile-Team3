@@ -33,7 +33,7 @@ A completed project entails thorough and accurate execution of all tasks detaile
 ## Execution Instructions
 This project may be executed through either the MATLAB application or MATLAB online. Comprehensive execution instructions are provided below.
 
-Prior to opening the live script file attached in this repository, appropriate helper functions and toolboxes must be downloaded. Note that toolbox downloads are only required if opening the live script through the MATLAB application. Helper functions must be downloaded regardless of which software is utilized. 
+Prior to opening the live script file attached in this repository, appropriate helper functions and toolboxes must be downloaded. Note that toolbox downloads are only required if opening the live script through the MATLAB application. 
 
   _Required Helper Functions_
   - hPlotCurvesforCycles.m
@@ -45,15 +45,35 @@ Helper functions are accessible through the dedicated "Helper Functions" folder 
   - Curve Fitting Toolbox
   - Predictive Maintenance Toolbox
 
-These toolboxes are required for features such as fitting curves, differential curves, and battery test parsers. Download sites for toolboxes are linked through the dedicated "Toolboxes" folder in this repository.
+These toolboxes are required for features such as fitting curves, differential curves, and battery test parsers. Download sites for toolboxes for the MATLAB application are linked through the dedicated "Toolboxes" folder in this repository.
 
-## Reproducing Results
-1. Open the live script as well as the helper functions and click run
-2. . The code will prompt the user to choose a cycle between 1-876, Cycle 1 was the choice chosen by group members.
-3.  
+**MATLAB Application**
+
+If running code through the MATLAB application, follow the steps outlined below:
+
+1) Ensure all necessary helper functions and toolboxes are downloaded
+2) Open the "BatteryChargingProfile_Team3.mlx live script in the repository
+3) Open helper functions and add them to the MATLAB search path by clicking "Add C:/... to search path"
+4) Click the green "Run" icon in the toolbar
+5) Once prompted to choose a cycle number, enter a number within the designated range and click "Enter"
+6) The remaining code will proceed to compile and no further user input is needed
+
+**MATLAB Online**
+
+If running code through MATLAB online, follow the steps outlined below:
+
+1) Click on the following link to access the GitHub repository through MATLAB online:
+          https://matlab.mathworks.com/open/github/v1?repo=DyDyVNR/MATLAB-Classroom-Challenge-BatteryProfile-Team3
+2) Open helper functions and add them to the MATLAB search path by clicking "Add C:/... to search path"
+3) Click the green "Run" icon in the toolbar
+5) Once prompted to choose a cycle number, enter a number within the designated range and click "Enter"
+6) The remaining code will proceed to compile and no further user input is needed
+
 
 ## File/Folder Overview
-- _<ins>Helper Functions</ins>_ - contains plotting functions used by the main live script. The first helper function plots the voltage and current for the battery's (chosen) charging cycle, and colors each of the data points according to the charging phase (CC, CV, Rest, Undefined). The second helper function plots how a battery analysis curve is able to change across multiple cycles, which creates a 3D graph, plotting the curve on the z-axis, the voltage or time graph on the x-axis, and the cycle number on the y-axis.
-- _<ins>Project Template and Instructions</ins>_ - As described by the title, this folder contains the given project template and instructions via README as a reference for the project members while working on the code.
-- _<ins>resources/project</ins>_ -
+- _<ins>Helper Functions</ins>_ - Contains plotting functions used by the main live script. These must be downloaded and added to MATLAB's search path prior to running code as detailed by the execution instructions above.
+- _<ins>Project Template and Instructions</ins>_ - Contains project templates and instructions as a reference for team members.
+- _<ins>resources/project</ins>_ - Contains initial commits of MATLAB files and is not necessary to run any code. May effectively be ignored.
 - _<ins>BatteryChargingProfile_Team3.mlx</ins>_ - The main Live Script that runs the battery charging profile analysis and generates the project's results.
+- _<ins>+THERMALBattery and +THERMALBatteryLumpingAdapters</ins>_ - Contain helper functions necessary for Simulink modeling.
+- _<ins>Teamwork_Agreement_BatteryProfileTeam3.pdf</ins>_ - Contains teamwork agreement as a .pdf file.
