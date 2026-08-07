@@ -71,9 +71,9 @@ If running code through MATLAB online, follow the steps outlined below:
 
 
 ## File/Folder Overview
-- _<ins>Helper Functions</ins>_ - Contains plotting functions used by the main live script. These must be downloaded and added to MATLAB's search path prior to running code as detailed by the execution instructions above.
-- _<ins>Project Template and Instructions</ins>_ - Contains project templates and instructions as a reference for team members.
-- _<ins>resources/project</ins>_ - Contains initial commits of MATLAB files and is not necessary to run any code. May effectively be ignored.
-- _<ins>BatteryChargingProfile_Team3.mlx</ins>_ - The main Live Script that runs the battery charging profile analysis and generates the project's results.
-- _<ins>+THERMALBattery and +THERMALBatteryLumpingAdapters</ins>_ - Contain helper functions necessary for Simulink modeling.
-- _<ins>Teamwork_Agreement_BatteryProfileTeam3.pdf</ins>_ - Contains teamwork agreement as a .pdf file.
+- <ins>Helper Functions</ins> - Contains plotting functions used by the main live script. These must be downloaded and added to MATLAB's search path prior to running code as detailed by the execution instructions above.
+- <ins>Project Template and Instructions</ins> - Contains project templates and instructions as a reference for team members.
+- <ins>resources/project</ins> - Contains initial commits of MATLAB files and is not necessary to run any code. May effectively be ignored.
+- <ins>BatteryChargingProfile_Team3.mlx</ins> - The main Live Script that runs the battery charging profile analysis and generates the project's results.
+- <ins>+THERMALBattery and +THERMALBatteryLumpingAdapters</ins> - Contain helper functions necessary for Simulink modeling.
+- <ins>Teamwork_Agreement_BatteryProfileTeam3.pdf</ins> - Contains teamwork agreement as a .pdf file.
