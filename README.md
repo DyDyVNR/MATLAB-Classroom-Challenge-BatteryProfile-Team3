@@ -112,6 +112,10 @@ All graphs produced by Simulink have been included in the live script and may be
 2. Click the green "Run" icon in the toolbar
 3. Once the simulation has run successfully, double-click the scope block (as highlighted below) to view graphs.
 
+## Reproducing Results
+
+In order to reproduce the results shown in BatteryChargingProfile_Team3.pdf, open BatteryChargingProfile_Team3.mlx to access the main live script. When prompted to enter a cycle number, enter "1" to select cycle 1. This will produce the results shown in BatteryChargingProfile_Team3.pdf, as we primarily focused on cycle 1 throughout our coding and editing process.
+
 ## File/Folder Overview
 _Helper Functions_ - Contains plotting functions used by the main live script. 
 
@@ -121,7 +125,9 @@ _Resources (Ignore)_ - Contains initial commits of MATLAB files and is not neces
 
 _Simulink_ - Contains all Simulink files and dependencies.
 
-_BatteryChargingProfile_Team3.mlx_ - The main Live Script that runs the battery charging profile analysis and generates the project's results.
+_BatteryChargingProfile_Team3.mlx_ - The main live script that runs the battery charging profile analysis and generates the project's results.
+
+_BatteryChargingProfile_Team3.pdf_ - .pdf file of the main live script attached for viewing convenience
 
 _README.md_ - Main README file detailing project objectives, requirements, and execution instructions.
 
