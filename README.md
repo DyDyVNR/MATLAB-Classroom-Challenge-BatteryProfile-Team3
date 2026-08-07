@@ -74,6 +74,8 @@ To access files required for Simulink modeling, navigate to the "Simulink" folde
 - All files in the "+THERMALBatteryLumpingAdapters" sub-folder
 - THERMALBattery.mat
 - THERMALBattery\_lib.slx
+- CCCV.slx
+- MSCCCV.slx
 
 All of the above helper functions, toolboxes, and dependencies MUST be installed if running the live script through the MATLAB application. Installations are not required if using MATLAB Online.
 
